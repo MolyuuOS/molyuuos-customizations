@@ -17,6 +17,8 @@ pkgver() {
 
 package() {
     cp -rv "${startdir}/rootfs/"* "${pkgdir}/"
+    chmod 755 "${pkgdir}/usr/bin/"*
+    chmod 755 "${pkgdir}/usr/bin/steamos-polkit-helpers/"*
 }
 
 # vim:set ts=2 sw=2 et:
