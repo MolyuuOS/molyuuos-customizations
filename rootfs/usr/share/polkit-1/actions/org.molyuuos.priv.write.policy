@@ -4,8 +4,8 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 
-  <vendor>MolyuuOS</vendor>
-  <vendor_url>http://molyuuos.org</vendor_url>
+  <vendor>MolyuuOS Molyuu</vendor>
+  <vendor_url>https://github.com/MolyuuOS</vendor_url>
 
   <action id="org.molyuuos.policykit.steamos.pkexec.run-steamos-polkit-helpers-steamos-priv-write">
     <description>Helper to write to a set of device nodes</description>

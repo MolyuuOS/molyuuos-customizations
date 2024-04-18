@@ -5,7 +5,7 @@
 <policyconfig>
 
   <vendor>MolyuuOS Molyuu</vendor>
-  <vendor_url>http://molyuuos.org</vendor_url>
+  <vendor_url>https://github.com/MolyuuOS</vendor_url>
 
   <action id="org.molyuuos.policykit.steamos.pkexec.run-session-select">
     <description>Helper to switch sessions</description>

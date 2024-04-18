@@ -4,10 +4,10 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 
-  <vendor>ChimeraOS Chimera</vendor>
-  <vendor_url>http://chimeraos.org</vendor_url>
+  <vendor>MolyuuOS Molyuu</vendor>
+  <vendor_url>https://github.com/MolyuuOS</vendor_url>
 
-  <action id="org.chimeraos.policykit.steamos.pkexec.run-steamos-update">
+  <action id="org.molyuuos.policykit.steamos.pkexec.run-steamos-update">
     <description>Main update script from Steam client</description>
     <icon_name>package-x-generic</icon_name>
     <defaults>
@@ -18,7 +18,7 @@
 		<annotate key="org.freedesktop.policykit.exec.path">/usr/bin/steamos-polkit-helpers/steamos-update</annotate>
   </action>
 
-  <action id="org.chimeraos.policykit.steamos.pkexec.run-jupiter-biosupdate">
+  <action id="org.molyuuos.policykit.steamos.pkexec.run-jupiter-biosupdate">
     <description>Dummy script for jupiter-biosupdate on Steam client</description>
     <icon_name>package-x-generic</icon_name>
     <defaults>
@@ -29,8 +29,8 @@
 		<annotate key="org.freedesktop.policykit.exec.path">/usr/bin/steamos-polkit-helpers/jupiter-biosupdate</annotate>
   </action>
   
-  <action id="org.chimeraos.policykit.steamos.pkexec.run-steamos-select-branch">
-    <description>Select branch script for frzr in GamepadUI</description>
+  <action id="org.molyuuos.policykit.steamos.pkexec.run-steamos-select-branch">
+    <description>Dummy branch selection script</description>
     <icon_name>package-x-generic</icon_name>
     <defaults>
       <allow_any>yes</allow_any>
