@@ -1,7 +1,7 @@
 # Maintainer: bigsaltyfishes <bigsaltyfishes@gmail.com>
 
 pkgname=molyuuos-customizations
-pkgver=r1.3428ae6
+pkgver=r3.53fac2a
 pkgrel=1
 branch="main"
 pkgdesc="MolyuuOS customizations - This package installs various MolyuuOS-specific files"
