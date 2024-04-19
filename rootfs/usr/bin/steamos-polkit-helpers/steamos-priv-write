@@ -34,6 +34,10 @@ if [[ "$(cat /sys/devices/virtual/dmi/id/product_name)" =~ "Jupiter" ]]; then
         CommitWrite
     fi
 
+    if [[ "$WRITE_PATH" == /sys/class/backlight/amdgpu_bl0/brightness ]]; then
+        CommitWrite
+    fi
+
     if [[ "$WRITE_PATH" == /sys/class/drm/card*/device/pp_od_clk_voltage ]]; then
         CommitWrite
     fi
